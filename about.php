@@ -1,7 +1,8 @@
 <title>About Us | <?=$title;?></title>
 <?php include __DIR__."/header.php"; ?>
 	
-	<!-- =-=-=-=-=-=-= PAGE BREADCRUMB =-=-=-=-=-=-= -->
+    <!-- =-=-=-=-=-=-= PAGE BREADCRUMB =-=-=-=-=-=-= -->
+    <div style="overflow: hidden;">
     <section class="breadcrumbs-area parallex">
         <div class="container">
             <div class="row">
@@ -14,16 +15,17 @@
             </div>
         </div>
     </section>
+    </div>
     <!-- =-=-=-=-=-=-= PAGE BREADCRUMB END =-=-=-=-=-=-= -->
 
     <!-- =-=-=-=-=-=-= About Section =-=-=-=-=-=-= -->
 
-    <section class="padding-top-70" id="about">
+    <section class="padding-top-70 padding-bottom-70" id="about">
         <div class="container">
             <div class="row clearfix">
                 <!--Column-->
-                <div class="col-md-7 col-sm-12 col-xs-12 ">
-                    <div class="about-title">
+                <div class="col-md-12 ">
+                    <div class="about-title text-center">
                         <h2>We Provide Services All Over The World</h2>
                         <p><?=$aboutus;?></p>
                         <p><?=$aboutus2;?></p>
@@ -51,7 +53,7 @@
                 <!-- countTo -->
                 <div class="col-xs-6 col-sm-3 col-md-3">
                     <div class="statistic-percent" data-perc="87321">
-                        <div class="facts-icons"> <span class="flaticon-woman-with-headset"></span> </div>
+                        <div class="facts-icons about-icons"> <span class="flaticon-woman-with-headset"></span> </div>
                         <div class="fact"> <span class="percentfactor">95,000+</span>
                             <p>Happy Clients</p>
                         </div>
@@ -64,7 +66,7 @@
                 <!-- countTo -->
                 <div class="col-xs-6 col-sm-3 col-md-3">
                     <div class="statistic-percent" data-perc="97186">
-                        <div class="facts-icons"> <span class="flaticon-commercial-delivery-symbol-of-a-list-on-clipboard-on-a-box-package"></span> </div>
+                        <div class="facts-icons about-icons"> <span class="flaticon-commercial-delivery-symbol-of-a-list-on-clipboard-on-a-box-package"></span> </div>
                         <div class="fact"> <span class="percentfactor">100,000+</span>
                             <p>Order Received</p>
                         </div>
@@ -77,7 +79,7 @@
                 <!-- countTo -->
                 <div class="col-xs-6 col-sm-3 col-md-3">
                     <div class="statistic-percent" data-perc="203">
-                        <div class="facts-icons"> <span class="flaticon-free-delivery-truck"></span> </div>
+                        <div class="facts-icons about-icons"> <span class="flaticon-free-delivery-truck"></span> </div>
                         <div class="fact"> <span class="percentfactor">200+</span>
                             <p>Countries Covered</p>
                         </div>
@@ -90,7 +92,7 @@
                 <!-- countTo -->
                 <div class="col-xs-6 col-sm-3 col-md-3">
                     <div class="statistic-percent" data-perc="586">
-                        <div class="facts-icons"> <span class="flaticon-ocean-transportation"></span> </div>
+                        <div class="facts-icons about-icons"> <span class="flaticon-ocean-transportation"></span> </div>
                         <div class="fact"> <span class="percentfactor">600+</span>
                             <p>Owned Vehicles</p>
                         </div>
@@ -107,4 +109,4 @@
     </div>
     <!-- =-=-=-=-=-=-= SEPARATOR END =-=-=-=-=-=-= -->
 
-<? include __DIR__."/footer.php"; ?>
+<?php include __DIR__."/footer.php"; ?>

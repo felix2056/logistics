@@ -65,7 +65,7 @@
                     <div class="col-md-4 col-xs-12 col-sm-6">
                         <div class="services-grid">
                             <div class="icons"> <i class="flaticon-ocean-transportation"></i></div>
-                            <h4>cargo</h4>
+                            <h4 class="content-color">cargo</h4>
                             <p><?=$service2;?></p>
                         </div>
                     </div>
@@ -73,7 +73,7 @@
                     <div class="col-md-4 col-xs-12 col-sm-6">
                         <div class="services-grid">
                             <div class="icons"> <i class="flaticon-delivery-truck"></i></div>
-                            <h4>worldwide transport </h4>
+                            <h4 class="content-color">worldwide transport </h4>
                             <p><?=$service3;?></p>
                         </div>
                     </div>
@@ -85,7 +85,7 @@
 
                         <div class="services-grid">
                             <div class="icons"> <i class="flaticon-view-symbol-on-delivery-opened-box"></i></div>
-                            <h4>ware housing</h4>
+                            <h4 class="content-color">ware housing</h4>
                             <p><?=$service4;?></p>
                         </div>
                     </div>
@@ -93,7 +93,7 @@
                     <div class="col-md-4 col-xs-12 col-sm-6">
                         <div class="services-grid">
                             <div class="icons"> <i class="flaticon-sea-ship-with-containers"></i></div>
-                            <h4>Sea Freight</h4>
+                            <h4 class="content-color">Sea Freight</h4>
                             <p><?=$service5;?></p>
                         </div>
                     </div>
@@ -101,7 +101,7 @@
                     <div class="col-md-4 col-xs-12 col-sm-6">
                         <div class="services-grid">
                             <div class="icons"> <i class="flaticon-24-hours-symbol"></i></div>
-                            <h4>Door To Door Devivery </h4>
+                            <h4 class="content-color">Door To Door Devivery </h4>
                             <p><?=$service6;?></p>
                         </div>
                     </div>
@@ -115,4 +115,4 @@
         <!-- end container -->
     </section>
     <!-- =-=-=-=-=-=-= Our Services-end =-=-=-=-=-=-= -->
-<? include __DIR__."/footer.php"; ?>
+<?php include __DIR__."/footer.php"; ?>

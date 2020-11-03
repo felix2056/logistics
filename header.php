@@ -12,8 +12,8 @@ $row = [
     "service4" => "Dummy Service Four Text",
     "service5" => "Dummy Service Five Text",
     "service6" => "Dummy Service Six Text",
-    "aboutus" => "Loren Ipsum about the company. We are Loren Ipsum part one",
-    "aboutus2" => "Loren Ipsum about the company. We are Loren Ipsum part two",
+    "aboutus" => "Logistic is a global supplier of transport and logistics solutions. We have offices in more than 50 countries and an international network of partners and agents, making us a truly global player that offers services worldwide.",
+    "aboutus2" => "Mixtape taxidermy plaid crucifix, Cosby sweater occupy cold-pressed Portland pop-up lo-fi PBR&B kale chips readymade. Flexitarian bitters Shoreditch literally paleo. Vice letterpress Bushwick direct trade fingerstache tattooed. Stumptown flannel mlkshk wayfarers forage, plaid VHS drinking vinegar quinoa YOLO.",
     "address" => "123 Wall Street P.O Box 123",
     "email" => "support@logistics.com",
     "number" => "+449839272383",
@@ -61,7 +61,7 @@ $myinfo        = $row["myinfo"];
     <!-- =-=-=-=-=-=-= Bootstrap CSS Style =-=-=-=-=-=-= -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <!-- =-=-=-=-=-=-= Template CSS Style =-=-=-=-=-=-= -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
     <!-- =-=-=-=-=-=-= Font Awesome =-=-=-=-=-=-= -->
     <link rel="stylesheet" href="css/font-awesome.css" type="text/css">
     <!-- =-=-=-=-=-=-= Et Line Fonts =-=-=-=-=-=-= -->
@@ -72,8 +72,10 @@ $myinfo        = $row["myinfo"];
     <!-- =-=-=-=-=-=-= Google Fonts =-=-=-=-=-=-= -->
     <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,600,600italic,700,700italic,900italic,900,300,300italic" rel="stylesheet" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" type="text/css">
     <!-- =-=-=-=-=-=-= Flat Icon =-=-=-=-=-=-= -->
-    <link href="css/flaticon.css" rel="stylesheet">
+    <link href="/css/flaticon.css" rel="stylesheet">
+    <link href="/css/fonts.min.css" rel="stylesheet">
     <!-- =-=-=-=-=-=-= Magnific PopUP CSS =-=-=-=-=-=-= -->
     <link href="js/magnific-popup/magnific-popup.css" rel="stylesheet">
     <!-- Theme Color -->

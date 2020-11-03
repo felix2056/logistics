@@ -59,7 +59,7 @@ if(isset($_POST["email"])){
                 </div>
             <? } ?>
                 
-                    <?=$success;?>
+                    <?php //$success;?>
                 
                 <div class="notice success" id="success"><p>Thanks so much for your message. We check e-mail frequently and will try our best to respond to your inquiry.</p></div>
 
@@ -68,7 +68,7 @@ if(isset($_POST["email"])){
                         <!-- Name -->
                         <div class="form-group">
                             <label>Name<span class="required">*</span></label>
-                            <input type="text" placeholder="Name" id="name" name="name" class="form-control" required />
+                            <input type="text" id="name" name="name" class="form-control" required />
                         </div>
                     </div>
                     <!-- End col-sm-6 -->
@@ -77,7 +77,7 @@ if(isset($_POST["email"])){
                         <!-- Email -->
                         <div class="form-group">
                             <label for="email">Email<span class="required">*</span></label>
-                            <input type="email" placeholder="Email" id="email" name="email" class="form-control" required />
+                            <input type="email" id="email" name="email" class="form-control" required />
                         </div>
                     </div>
                     <!-- End col-sm-6 -->
@@ -86,7 +86,7 @@ if(isset($_POST["email"])){
                         <!-- Email -->
                         <div class="form-group">
                             <label>Subject<span class="required">*</span></label>
-                            <input type="text" placeholder="Subject" id="subject" name="subject" class="form-control" required />
+                            <input type="text" id="subject" name="subject" class="form-control" required />
                         </div>
                     </div>
                     <!-- End col-sm-12 -->
@@ -95,7 +95,7 @@ if(isset($_POST["email"])){
                         <!-- Comment -->
                         <div class="form-group">
                             <label>Message<span class="required">*</span></label>
-                            <textarea placeholder="Message..." id="message" name="message" class="form-control" rows="6" required></textarea>
+                            <textarea id="message" name="message" class="form-control" rows="6" required></textarea>
                         </div>
                     </div>
                     <!-- End col-sm-12 -->
@@ -116,4 +116,4 @@ if(isset($_POST["email"])){
 </section>
 <!-- =-=-=-=-=-=-= Contact Us End =-=-=-=-=-=-= -->
 
-<? include __DIR__."/footer.php"; ?>
+<?php include __DIR__."/footer.php"; ?>
