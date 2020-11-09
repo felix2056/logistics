@@ -59,12 +59,8 @@ if (isset($_GET["id"])) {
     font-size: 20px;
 }
 
-.mt-10 {
-    margin-top: 10% !important;
-}
-</style>
 
-<div class="mt-10"></div>
+</style>
 
 <div class="page-content fixed centered">
     <div class="container" style="margin-top: -176.5px; margin-left: -570px;">
