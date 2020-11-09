@@ -150,7 +150,7 @@ $myinfo        = $row["myinfo"];
 
                                             <li><a href="/about.php">About</a></li>
 
-                                            <li><a href="/track.php">Track</a></li>
+                                            <li><a href="/track.php">Track Order</a></li>
 
                                             <li><a href="/contactus.php">Contact</a></li>
                                         </ul><!-- .nav.navbar-nav end -->
