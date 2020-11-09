@@ -60,7 +60,7 @@ if (isset($_GET["id"])) {
 }
 
 .mt-10 {
-    margin-top: 12px;
+    margin-top: 10% !important;
 }
 </style>
 
